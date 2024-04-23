@@ -1,0 +1,157 @@
+body{
+    /* background-color: #F3EDC8; */
+    background-color: rgb(0, 47, 51);
+    background-image: url(/Assets/Blur-bg-login.png);
+    background-repeat: repeat-y;
+    background-size: 100dvw;
+} 
+                        /*HEADER*/
+.main-heading{
+    display: flex;
+    flex-direction: row;
+   
+}
+.brand{
+    /* background-color: blue; */
+    width: 80%;
+}
+.heading{
+    color: white;
+    font-family: "Space Mono", monospace;
+    font-size: 5rem;
+
+    margin-bottom: 0;
+    margin-top: 0rem;
+}
+.tagline{
+    font-family: 'Noto Sans', serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: relative;
+    bottom: 1.3rem;
+    font-style: italic;
+    margin-bottom: 0.4rem;
+    margin-left: 3rem;
+    color: white;
+}
+
+.user-account{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+    border-radius: 1rem;
+    /* color: aqua; */
+ 
+}   
+.user-account>a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.pfp{
+    width: fit-content;
+    height: 3.9rem;
+    margin-right: 1rem;
+}
+.user-info{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem;
+    padding: 1rem;
+    padding-bottom: 0rem;
+    font-family: 'Noto Sans', serif;
+    font-style: italic;
+    font-weight: 800;
+    border-radius: 0.5rem;
+}
+
+                   /* POST SECTION */
+.post{
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    height: 8.2rem;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    margin: 0.5rem 0rem;
+    font-family: 'Noto Sans', serif;
+}
+.user{
+    font-style: italic;
+}
+.maroon{
+    background-color: rgb(52, 50, 50);
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-family: 'Noto Sans', serif;
+}
+
+.maroon>a{
+   text-decoration: none;
+   color: white;
+}
+.post-edit-button{
+    position: relative;
+    bottom: 5.12rem;
+    left: 81.2rem;
+}
+.post-delete-button{
+    position: relative;
+    bottom: 7rem;
+    left: 91.5rem;
+    cursor: pointer;
+}
+
+.post-delete-button:hover , .post-edit-button:hover {
+    opacity: 70%;
+    font-size: 1.12rem;
+}
+.post-detail-button:hover{
+    opacity: 70%;
+}
+
+.time{
+    position: relative;
+    left: 90.8rem;
+    bottom: 4rem;
+    font-weight: 700;
+    opacity: 80%;
+    text-decoration: underline;
+}
+.edited{
+    position: relative;
+    left: 85rem;
+    bottom: 6.3rem;
+    font-weight: 700;
+    opacity: 80%;
+    text-decoration: underline;
+}
+.detail-info{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    color: white;
+    font-family: 'Noto Sans', serif;
+}
+
+@media screen and (max-width:800px){
+    .post-edit-button{
+        left: 32.8rem;
+    }
+    .post-delete-button{
+        left: 43rem;
+    }
+}
+
+
+                    /* FOOTER */
+.footer{
+    margin-top: 5rem;
+    color: white;
+    font-family: 'Noto Sans', serif;
+    text-align: center;
+}

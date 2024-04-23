@@ -1,0 +1,34 @@
+body{
+    background-image: url(/Assets/Blur-bg-login.png);
+    background-repeat: no-repeat;
+    background-size: 100dvw;
+}
+
+.user-profile{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+.pfp{
+    width: 50%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.content{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.5rem;
+    width: 47%;
+    font-family: 'Noto Sans', serif;
+    padding: 1rem;
+}
+.info{
+    font-size: 2rem;
+    font-style: italic;
+
+}
+.bio{
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 650;
+
+}

@@ -1,0 +1,38 @@
+body{
+    background-image: url(/Assets/Blur-bg-login.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+.heading{
+    color: white;
+    font-size: 2.9rem;
+    font-family: "Space Mono", monospace;
+ 
+}
+.field{
+    font-weight: 800;
+    font-family: 'Noto Sans', serif;
+    font-size: 1.3rem;
+    color: white;
+}
+.input{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+}
+.submit-button{
+    background-color: rgb(52, 50, 50);
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-family: 'Noto Sans', serif;
+    margin-top: 0.6rem;
+}
+.warning{
+    font-family: 'Noto Sans', serif;
+    background-color: white;
+    color: red;
+    border: solid red;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}

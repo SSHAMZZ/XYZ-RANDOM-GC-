@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: #F3EDC8;
+    background-image: url(/Assets/Blur-bg-login.png);
+    background-repeat: no-repeat;
+    background-size: 100dvw;
+}
+.box{
+    display: flex;
+    width: 62rem;
+        
+}
+.box-info{
+    background-color: white;
+    opacity: 85%;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+    width: 40%;
+}
+.login-image{
+    width: 60%;
+    height: 560px;
+}  
+.login-image>img{
+    width: 35rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.brand{
+    margin-top: 2rem;
+}
+.heading{
+    color: rgb(31, 30, 30);
+    font-size: 6rem;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+.tagline{
+    font-family: 'Noto Sans', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: relative;
+    right: 0.2rem;
+    bottom: 2.5rem;
+    font-style: italic;
+    margin-bottom: 0.4rem;
+    margin-left: 3.4rem;
+}
+.content{
+    font-family: 'Noto Sans', serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: relative;
+    right: 0.5rem;
+
+}
+.input{
+    background-color: rgb(168, 165, 165);
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.submit-button{
+    background-color: rgb(52, 50, 50);
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-family: 'Noto Sans', serif;
+    position: relative;
+    bottom: 0.7rem;
+    right: 0.2rem;
+}
+.register-button{
+    background-color: rgb(52, 50, 50);
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-family: 'Noto Sans', serif;
+    position: relative;
+}
